@@ -3,9 +3,6 @@ node_js:
 - '4.1'
 - '4.0'
 deploy:
-  provider: heroku
-  api_key:
-    secure: HdRPRMTZ94zXarLchXAR76flhJaj/kU80/Kg3FHssBTY9WbKI0Lj4aFOvk0iQMQyBbTBoF+aNferrGbsaNYdLNYO6C+viv8jSAHnmAAJcxCv8T+Uz1wVEcpHGqWyfLm1QjZ9N2zPJsVlIFSEr8J/6Z5hz7shDFrXIqidS6RGN0XjNrM0faVeOIg37Kv9CHa/fiYDXDZbSwcTtDl2otyVuOjf3Xqn5079/NeoFU/Ceqzs+wC0HFdmPVuKzBMS8pVLfL5Mo4pxj2+SybzBS3TQ+LsMXYksPmBaqu3u3nB8i015B7A0E2CYRwXZ37Owdb2CWGwgMAQaLuqpJCEFYHrmWgDSNMMMC/Kd4BsbdJjTKxcmYLBnZOVc4L+LNPlcqKDfpvBxOfiDm+khXZz8Gwi++NMlvj3Q9Of5/kbpExZBxhLPEx/DqBUmX21oZHyLj+aQ6ek+96r8Q1nM0OYmHFZdTUzsur6Zo5Lx03HvCbWhZB0pB3aJXcPGcqCoEKocqweIFvYcQlTBpqiA6ThW41AvT+b+1/luIQZYHrSGpUdwwnBCi982B7UGT9Y3q2Ojc3qUNfV8RzrTOrsb2OsRlvlFbDzuEElBXQV4ClbJ5sGBoqZqHZti7ZWrggL1lqa2VvCZc7FfoVsKwSenet7jKvGwltZB2AzY7v7O1guLX1bZwyI=
-  app: angular-material-demo
-  on:
-    repo: nikolaschou/angular-material-demo
+  provider: azure_web_apps
+
+
